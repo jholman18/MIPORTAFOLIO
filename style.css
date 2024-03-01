@@ -20,7 +20,7 @@
  }
 
  .header{
-    background-image: url(image/Imagen3.png);
+    background-color: #18293a;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,10 +45,10 @@
  }
 
  .logo{
-    color: rgb(26, 21, 21);
+    color: rgb(247, 241, 241);
     font-size: 25px;
     font-weight: 800;
-    
+    border-color: #080808;
 
  }
 
@@ -60,7 +60,7 @@
  .menu .navbar ul li a{
     font-size: 18px;
     padding: 20px;
-    color: rgb(12, 10, 10);
+    color: rgb(245, 244, 244);
     display: block;
     font-weight: 600;
 
@@ -84,15 +84,19 @@
     text-align: center;
 }
 
+.circulo{
+    border-radius: 50%;
+}
+
 .header-txt h1{
     font-size: 85px;
-    color: #fffdfc;
+    color: #fcfbfb;
     margin-bottom: 20px;
 
 }
 
 .header-txt p{
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     font-size: 16px;
     padding: 0 250px;
     margin-bottom: 45px;
@@ -123,33 +127,34 @@
     display: flex;
     justify-content: space-between;
     margin-top: 55px;
+
 }
 
 .general-1{
-    background-image: url(image/telecom.png);
+    background-image: url(image/Imagen1.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
-    padding: 170px 55px;
+    padding: 140px 20px;
 }
 
 .general-2{
-    background-image: url(image/telecom.png);
+    background-image: url(image/Imagen5.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
-    padding: 170px 55px;
+    padding: 140px 20px;
 }
 
 .general-3{
-    background-image: url(image/telecom.png);
+    background-image: url(image/Imagen6.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
-    padding: 170px 55px;
+    padding: 140px 20px;
 }
 
 .general-4{
@@ -187,7 +192,7 @@ h2{
 
 .txt h3{
     font-size: 18px;
-    color: #fffdfc;
+    color: #fdfdfd;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -200,6 +205,7 @@ h2{
 .info-1{
     padding: 250px 0;
     background-image: url(image/telecom.png);
+    background-color: #137ee9;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -258,6 +264,7 @@ h2{
 }
 
 .testi{
+    background-color: #69a9f7;
     display: flex;
     align-items: center;
     text-align: left;
@@ -333,6 +340,24 @@ h2{
 .footer-txt p{
     color: #1b293a;
     font-size: 16px;
+}
+
+.icons{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i{
+    text-align: center;
+    font-size: 25px;
+    color: #137ee9;
+    margin: 20px;
+    border-radius: 50%;
+    padding: 25px;
+    box-shadow: 0px 5;
 }
 
 @media(max-width:991px){
